@@ -1,0 +1,9 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+        "react/no-unused-prop-types": "off",
+        "react/prefer-stateless-function": ["off", { "ignorePureComponents": ["any"] }],
+        "no-param-reassign": "off"
+    }
+}
